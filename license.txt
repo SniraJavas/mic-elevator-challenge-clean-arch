@@ -1,0 +1,14 @@
+Copyright (c) 2025 Dynamic Visual Technologies (Pty) Ltd
+
+This repository is provided for candidate assessment purposes.
+
+By submitting any code, documentation, or other content ("Submissions") to this repository, you agree that:
+
+1. You are assigning all right, title, and interest in and to your Submissions to Dynamic Visual Technologies (Pty) Ltd.
+2. Dynamic Visual Technologies (Pty) Ltd shall have the unrestricted right to use, copy, modify, distribute, commercialize, or otherwise make use of the Submissions in any manner, without attribution, compensation, or further consent.
+3. You waive any moral rights or claims to the Submissions.
+4. You affirm that your Submissions are original and do not infringe the rights of any third party.
+
+If you do not agree to these terms, do not submit any content to this repository.
+
+All rights reserved.

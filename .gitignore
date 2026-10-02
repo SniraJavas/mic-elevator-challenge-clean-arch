@@ -1,6 +1,100 @@
 ﻿################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
+# Build output
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
 
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Core
+wwwroot/lib/
+
+# User-specific configuration
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.local.json
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Certificates / keys
+*.pfx
+*.p12
+*.key
+*.pem
+*.crt
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Docker
+docker-compose.override.yml
+
+# Test results
+TestResults/
+*.trx
+.coverage
+coverage/
+coverage-report/
+
+# BenchmarkDotNet
+BenchmarkDotNet.Artifacts/
+
+# Publish output
+publish/
+[Pp]ublish/
+
+# Generated files
+Generated/
+GeneratedCode/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# Azure / deployment
+.azure/
 /ElevatorChallenge/.vs/ElevatorChallenge.slnx
 /ElevatorChallenge/ElevatorChallenge/obj

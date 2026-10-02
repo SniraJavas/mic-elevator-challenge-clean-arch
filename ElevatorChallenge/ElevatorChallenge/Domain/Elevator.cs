@@ -15,7 +15,7 @@ namespace ElevatorChallenge.Domain
         public Direction Direction { get; private set; } = Direction.None;
         public Elevator(int id, int capacity, int startFloor = 0)
         {
-            // Guard clause: an elevator that can carry nobody makes no sense.
+            //An elevator that can carry nobody makes no sense.
             ArgumentOutOfRangeException.ThrowIfLessThan(capacity, 1);
             Id = id;
             Capacity = capacity;

@@ -19,3 +19,9 @@ int floors = ReadInt("Number of floors", defaultValue: 10, min: 2, max: 100);
 int elevatorCount = ReadInt("Number of elevators", defaultValue: 3, min: 1, max: 20);
 int capacity = ReadInt("Weight limit (max people per elevator)", defaultValue: 8, min: 1, max: 50);
 
+//Define you building
+var building = new Building(floors);
+
+var elevators = Enumerable.Range(1, elevatorCount)
+    .Select(id => new Elevator(id, capacity))
+    .ToList();

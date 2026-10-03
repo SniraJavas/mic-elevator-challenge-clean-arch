@@ -1,4 +1,7 @@
-﻿using ElevatorChallenge.Domain;
+﻿using ElevatorChallenge.Controllers;
+using ElevatorChallenge.Domain;
+using ElevatorChallenge.Service;
+using ElevatorChallenge.UI;
 
 Console.WriteLine("=== Elevator Challenge ===");
 // Reads an integer in [min, max]; Enter accepts the default. Re-prompts on bad input.
@@ -25,3 +28,7 @@ var building = new Building(floors);
 var elevators = Enumerable.Range(1, elevatorCount)
     .Select(id => new Elevator(id, capacity))
     .ToList();
+
+
+var controller = new ElevatorController(building, elevators, new NearestAvailableElevatorStrategy());
+new ConsoleApp(controller).Run(); // WHere the main movie happens

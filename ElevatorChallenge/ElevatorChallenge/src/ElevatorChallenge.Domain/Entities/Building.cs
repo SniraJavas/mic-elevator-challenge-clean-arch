@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ElevatorChallenge.Domain
+namespace ElevatorChallenge.src.ElevatorChallenge.Domain.Domain
 {
     public sealed class Building
     {

@@ -1,5 +1,5 @@
-﻿using ElevatorChallenge.Domain;
-using ElevatorChallenge.Interface;
+﻿using ElevatorChallenge.Interface;
+using ElevatorChallenge.src.ElevatorChallenge.Domain.Domain;
 using System;
 using System.Collections.Generic;
 using System.Text;

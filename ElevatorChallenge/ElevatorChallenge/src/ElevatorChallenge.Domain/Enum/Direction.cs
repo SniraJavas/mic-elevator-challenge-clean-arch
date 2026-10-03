@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ElevatorChallenge.Enum
+namespace ElevatorChallenge.src.ElevatorChallenge.Domain.Enum
 {
     public enum Direction
     {
